@@ -1,0 +1,224 @@
+BODY
+{
+	background: #FFFFF0;
+}
+
+
+
+#logoTable
+{
+	padding: 5px;
+	color: #000099;
+	text-align: center;
+	font-size: 30px;
+	margin: auto;
+}
+
+
+.page-header{
+	overflow: hidden;
+}
+
+#sorterBar,  #seacherBar {
+	float: right;
+	margin-left: 30px;
+}
+
+#totalRecords {
+	float: left
+}
+
+/*													T A B L E								 */
+
+#tableEmpl, #footerTableEmpl
+{
+	width: 88%;
+	padding: 5px;
+	text-align: center;
+	margin:auto;
+}
+
+#footerTableEmpl {
+	overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+
+
+
+.pagination li {
+    display: inline-block;
+}
+
+.pagination li {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination li.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination li:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#formEmpl {
+	justify-content: center;
+	flex-direction: row;
+	display: flex;
+}
+
+#formIdEmpl{
+  width:80%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+
+.close {
+    float: right;
+    top: 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+
+
+
+
+
+input, select, textarea {
+	width: auto;
+	font-size: large;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+label {
+  padding: 6px 6px 6px 0;
+  font-size: large;
+  display: inline-block;
+}
+
+
+.row-form {
+	justify-content: center;
+	flex-direction: row;
+	display: flex;
+}
+
+
+.col-33 {
+  float: left;
+  width: 33%;
+  margin-top: 6px;
+}
+
+.col-45 {
+  float: left;
+  width: 45%;
+  margin-top: 6px;
+}
+
+
+/* 													B U T T O N 													*/
+
+button {
+	margin-left: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit] {
+	width:30%;
+    background-color: #4CAF50;
+}
+
+button[type=reset] {
+    background-color: #008cc6;
+
+}
+
+.btn-edit-record {
+    padding: 5px 10px;
+    border-radius: 250px;
+	font-size: large;
+}
+
+.btn-show-record {
+    background-color: #ff8700;
+    padding: 5px 10px;
+    border-radius: 20px;
+	font-size: large;
+}
+
+#addNew {
+    background-color: #FFFFFF;
+    color: black;
+    border:solid;
+	border-width:1px;
+    border-radius: 10px;
+	padding: 8px 8px;
+	float: right
+}
+
+.lockButton-on {
+	visibility: visible;
+	background-color: #FFFFF0;
+    border-radius: 10px;
+	padding: 4px 2px 0px 2px;
+	margin-left: 5px;
+	font-size: xx-large;
+}
+
+.lockButton-off {
+	visibility: hidden;
+}
